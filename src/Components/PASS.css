@@ -1,0 +1,154 @@
+.container {
+    width: 50%;
+    color: white;
+    background-color: #439aa0;
+    padding: 5em;
+    margin: auto; /* Center the container */
+    border-radius: 10px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.password-wrapper {
+    width: 100%;
+    height: 50px;
+}
+
+.password-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.password-area .password {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.password-area .password input {
+    width: 100%;
+    height: 100%;
+    padding: 10px; /* Add padding for better appearance */
+    font-size: 20px;
+    background-color: #f9ffff;
+    color: black;
+    line-height: 30px; /* Adjust line-height to fit padding */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+.password-area .password .copy {
+    position: absolute;
+    right: 0px; /* Adjust position to account for padding */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    width: 40px;
+    height: 80%;
+    padding: 5px;
+    background-color: aquamarine;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.setting {
+    margin: 20px 0;
+}
+
+.customize {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.customize .checkbox {
+    display: flex;
+}
+
+.customize .left, .customize .right {
+    width: fit-content;
+}
+
+.customize .right {
+    margin-left: 30px;
+}
+
+.customize .checkbox .checkbox_field {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customize .checkbox .checkbox_field input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.customize .checkbox .checkbox_field input:checked {
+    accent-color: dodgerblue;
+}
+
+.slider {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.slider .rangevalue {
+    width: 50px;
+    height: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.slider .range {
+    width: calc(100% - 80px);
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.slider .range input {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    margin-left: 15px;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #2adeeb;
+    color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
